@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Create your DevCard</h1>
+    <form action="/createcard" method="post">
+        <input type="text" placeholder="Your Full Name" class="name" name="name">
+        <br>
+        <input type="text" placeholder="About Me" class="about_me" name="about_me">
+        <br>
+        <p>Technologies you know:</p>
+        <input type="checkbox" class="HTML" name="HTML" value="HTML">
+        <label for="HTML">HTML</label>
+        <br>
+        <input type="checkbox" class="JS" name="JS" value="JS">
+        <label for="JS">JS</label>
+        <br>
+        <input type="checkbox" class="CSS" name="CSS" value="CSS">
+        <label for="CSS">CSS</label>
+        <br>
+        <input type="text" placeholder="Github URL" class="github_url" name="github_url">
+        <br>
+        <input type="text" placeholder="Twitter URL" class="twitter_url" name="twitter_url">
+        <br>
+        <input type="text" placeholder="Favorite Books (Separate by comma)" class="favorite_books" name="favorite_books">
+        <br>
+        <button type="submit" class="button_create">Create Site</button>
+    </form>
+</body>
+
+</html>
